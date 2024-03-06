@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - procure um aws cli que vc ira copiar os arquivos da origem . para o destino do bucket s3 que vc criou (aqui vc coloca a s3://nome do seu bucket
+artifacts:
+  files:
+    - index.js
