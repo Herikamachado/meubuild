@@ -1,0 +1,12 @@
+{
+  "name": "meubuild",
+  "version": "1.0.0",
+  "description": "Descrição do seu projeto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
