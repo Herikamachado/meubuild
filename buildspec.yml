@@ -8,7 +8,7 @@ phases:
       - npm install
   build:
     commands:
-      - procure um aws cli que vc ira copiar os arquivos da origem . para o destino do bucket s3 que vc criou (aqui vc coloca a s3://nome do seu bucket
+      - procure um aws cli que vc ira copiar os arquivos da origem . para o destino do bucket s3 que vc criou (aqui vc coloca a S3_BUCKET_PATH e cria uma variavel de ambiente S3_BUCKET_PATH com o caminho do seu bucket s3://....)
 artifacts:
   files:
     - index.js
